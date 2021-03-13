@@ -1,11 +1,13 @@
+import TextButton from './TextButton'
+
 const Navbar = () => {
     return (
         <div className='navbar'>
-            <button>Home</button>
-            <p className='divider'>|</p>
-            <button>Projects</button>
-            <p className='divider'>|</p>
-            <button>Contact</button>
+            <TextButton text='home' />
+            <p className='txt-btn'>|</p>
+            <TextButton text='projects' />
+            <p className='txt-btn'>|</p>
+            <TextButton text='contact' />
         </div>
     )
 }

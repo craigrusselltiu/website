@@ -1,47 +1,54 @@
+* {
+  font-family: 'Roboto', sans-serif;
+  color: #FFFFFF;
+}
+
 body {
   margin: auto;
-  font-family: 'Roboto', sans-serif;
   background-image: url('images/misty.png');
   background-repeat: no-repeat;
   background-color: rgb(25, 25, 25);
   background-size: contain;
 }
 
+h1 {
+  text-align: center;
+  margin-top: 200px;
+}
+
 .title img {
   width: 42vw;
 }
 
-button {
-  display: inline-block;
-  margin: 25px;
-  margin-left: 35px;
-  text-transform: uppercase;
-  font-family: 'Roboto', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
-  letter-spacing: 10px;
-  color: white;
-  background-color: transparent;
-  border-style: none;
-  outline: none;
-  text-shadow: 1px 1px 2px black;
-  transition: all 0.2s;
+.top-fade {
+  position: fixed;
+  width: 100%;
+  top: 0px;
 }
 
-button:hover {
-  color:#BBBBBB;
+.bot-fade {
+  position: fixed;
+  width: 100%;
+  bottom: -4px;
 }
 
-button:active {
-  color:#888888;
+.black-box {
+  background-color: rgb(25, 25, 25);
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+	animation-name: fadeOutOpacity;
+	animation-timing-function: ease-in;
+	animation-duration: 4s;
+  z-index: -2;
 }
 
-.divider {
-  display: inline-block;
-  color: white;
-  font-size: 15px;
-  font-weight: 900;
-  text-shadow: 1px 1px 2px black;
+@keyframes fadeOutOpacity {
+	0% {opacity: 1;}
+  50% {opacity: 1;}
+	100% {opacity: 0;}
 }
 
 .navbar {
@@ -52,7 +59,7 @@ button:active {
   opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-timing-function: ease-in;
-	animation-duration: 5s;
+	animation-duration: 6s;
 }
 
 .title {
@@ -64,11 +71,38 @@ button:active {
   opacity: 1;
 	animation-name: fadeInOpacity;
 	animation-timing-function: ease-in;
-	animation-duration: 3s;
+	animation-duration: 2s;
+  z-index: -1;
 }
 
 @keyframes fadeInOpacity {
 	0% {opacity: 0;}
   50% {opacity: 0;}
 	100% {opacity: 1;}
+}
+
+.txt-btn {
+  display: inline-block;
+  margin: 15px;
+  margin-left: 35px;
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  letter-spacing: 10px;
+  color: white;
+  background-color: transparent;
+  border-style: none;
+  text-decoration: none;
+  outline: none;
+  text-shadow: 1px 1px 2px black;
+  transition: all 0.2s;
+}
+
+.txt-btn:hover {
+  color:#BBBBBB;
+}
+
+.txt-btn:active {
+  color:#888888;
 }
