@@ -2,7 +2,7 @@ import { Link } from 'react-router-dom'
 
 const TextButton = ({ text }) => {
     const redirect = () => {
-        console.log(text)
+        window.scrollTo({top: window.innerHeight, behavior: 'smooth'})
     }
 
     if (text === 'home') {

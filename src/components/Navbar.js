@@ -4,9 +4,9 @@ const Navbar = () => {
     return (
         <div className='navbar'>
             <TextButton text='home' />
-            <p className='txt-btn'>|</p>
+            <p className='txt'>|</p>
             <TextButton text='projects' />
-            <p className='txt-btn'>|</p>
+            <p className='txt'>|</p>
             <TextButton text='contact' />
         </div>
     )
