@@ -5,7 +5,6 @@ import Contact from './views/Contact'
 import ReplayButton from './components/ReplayButton'
 import Fade from 'react-reveal/Fade'
 import Jump from 'react-reveal/Jump'
-import Reveal from 'react-reveal/Reveal'
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
 import fadetop from './images/fade-top.png'
@@ -23,6 +22,12 @@ function App() {
       <div className='container'>
         <div className='black-box' />
 
+        <div className='screen' />
+
+        <div className='fade' style={{position: 'absolute', top: 'calc(100vh - 150px)'}}>
+          <img src={fadebot} alt='fade' />
+        </div>
+
         <div className='background'>
           <img src={misty} alt='bg' />
         </div>
@@ -35,8 +40,8 @@ function App() {
           <img src={fadebot} alt='fade' />
         </div>
 
-        <Jump count={4} duration={2000}>
-          <img hidden={false} className='scroll' src={arrows} alt='scroll' style={{width: 36, height: 36}} />
+        <Jump forever duration={2000}>
+          <img className='scroll' src={arrows} alt='scroll' style={{width: 36, height: 36}} />
         </Jump>
         
         <Fade up distance={'40px'} delay={1000}>
@@ -52,6 +57,7 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
         </Switch>
+
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
         <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>

@@ -38,12 +38,21 @@ body {
   animation-fill-mode: forwards;
 }
 
-.background {
+.screen {
+  background-color: rgb(25, 25, 25);
   position: absolute;
+  top: 100vh;
+  width: 100%;
+  height: 350vh;
+  z-index: -1;
+}
+
+.background {
+  position: fixed;
   top: 0;
   background-repeat: no-repeat;
   background-size: contain;
-  z-index: -1;
+  z-index: -2;
 }
 
 .title {
@@ -136,9 +145,9 @@ body {
 }
 
 .scroll {
-  position: absolute;
+  position: fixed;
   left: 40px;
-  bottom: 40px;
-  z-index: -1;
+  bottom: 110px;
+  z-index: -2;
   opacity: 0;
 }
