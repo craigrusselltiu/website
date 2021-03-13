@@ -1,10 +1,13 @@
+import Navbar from './components/Navbar'
+import craig from './images/craig.png'
+
+
 function App() {
   return (
     <div className='container'>
-      <div className='navbar'>
-        <button>hello</button><p className='divider'>|</p>
-        <button>hello</button><p className='divider'>|</p>
-        <button>hello</button>
+      <Navbar />
+      <div className='title'>
+        <img src={craig} alt="Craig" />
       </div>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
       <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
