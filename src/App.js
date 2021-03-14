@@ -5,7 +5,7 @@ import Navbar from './components/Navbar'
 import ReplayButton from './components/ReplayButton'
 import Whitespace from './components/Whitespace'
 import Logo from './components/Logo'
-import ScrollIndicator from './components/ScrollIndicator'
+import ScrollButton from './components/ScrollButton'
 import FadeBar from './components/FadeBar'
 import Background from './components/Background'
 import LinkBar from './components/LinkBar'
@@ -27,7 +27,7 @@ function App() {
         <FadeBar type='top' style={{top: '0px'}} />
         <FadeBar style={{bottom: '-4px'}} />
 
-        <ScrollIndicator />
+        <ScrollButton />
         <Logo />
         <Navbar />
         <LinkBar />
@@ -39,9 +39,6 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
         </Switch>
-
-        <Whitespace style={{height: '150vh'}} />
-        <h2 className='txt'>Thanos did nothing wrong.</h2>
       </div>
     </Router>
   );
