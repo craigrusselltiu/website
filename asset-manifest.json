@@ -1,29 +1,31 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.acfde1ec.chunk.css",
-    "main.js": "/website/static/js/main.e0bc7e42.chunk.js",
-    "main.js.map": "/website/static/js/main.e0bc7e42.chunk.js.map",
+    "main.css": "/website/static/css/main.2fbeca98.chunk.css",
+    "main.js": "/website/static/js/main.fb1fb485.chunk.js",
+    "main.js.map": "/website/static/js/main.fb1fb485.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.7e94f93a.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.7e94f93a.js.map",
     "static/css/2.a1596f27.chunk.css": "/website/static/css/2.a1596f27.chunk.css",
-    "static/js/2.f893f964.chunk.js": "/website/static/js/2.f893f964.chunk.js",
-    "static/js/2.f893f964.chunk.js.map": "/website/static/js/2.f893f964.chunk.js.map",
+    "static/js/2.46478029.chunk.js": "/website/static/js/2.46478029.chunk.js",
+    "static/js/2.46478029.chunk.js.map": "/website/static/js/2.46478029.chunk.js.map",
     "static/js/3.461037bb.chunk.js": "/website/static/js/3.461037bb.chunk.js",
     "static/js/3.461037bb.chunk.js.map": "/website/static/js/3.461037bb.chunk.js.map",
     "index.html": "/website/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/website/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.acfde1ec.chunk.css.map": "/website/static/css/main.acfde1ec.chunk.css.map",
-    "static/js/2.f893f964.chunk.js.LICENSE.txt": "/website/static/js/2.f893f964.chunk.js.LICENSE.txt",
+    "static/css/main.2fbeca98.chunk.css.map": "/website/static/css/main.2fbeca98.chunk.css.map",
+    "static/js/2.46478029.chunk.js.LICENSE.txt": "/website/static/js/2.46478029.chunk.js.LICENSE.txt",
     "static/media/craig.b7d1e7ee.png": "/website/static/media/craig.b7d1e7ee.png",
     "static/media/fade-bot.9d3ae8a2.png": "/website/static/media/fade-bot.9d3ae8a2.png",
     "static/media/fade-top.abe643d6.png": "/website/static/media/fade-top.abe643d6.png",
-    "static/media/misty.111449d6.png": "/website/static/media/misty.111449d6.png"
+    "static/media/misty.111449d6.png": "/website/static/media/misty.111449d6.png",
+    "static/media/pic1.e7d46694.png": "/website/static/media/pic1.e7d46694.png",
+    "static/media/resume.7d79fd53.pdf": "/website/static/media/resume.7d79fd53.pdf"
   },
   "entrypoints": [
     "static/js/runtime-main.7e94f93a.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.f893f964.chunk.js",
-    "static/css/main.acfde1ec.chunk.css",
-    "static/js/main.e0bc7e42.chunk.js"
+    "static/js/2.46478029.chunk.js",
+    "static/css/main.2fbeca98.chunk.css",
+    "static/js/main.fb1fb485.chunk.js"
   ]
 }
