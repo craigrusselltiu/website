@@ -1,4 +1,5 @@
 import TextPhotoPair from '../components/TextPhotoPair'
+import TextCenter from '../components/TextCenter'
 
 const Home = () => {
     return (
@@ -6,6 +7,7 @@ const Home = () => {
             <TextPhotoPair />
             <TextPhotoPair type='left' />
             <TextPhotoPair />
+            <TextCenter />
         </div>
     )
 }

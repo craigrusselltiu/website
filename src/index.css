@@ -32,7 +32,6 @@ body {
 }
 
 .whitespace {
-  background-color: transparent;
   position: relative;
   width: 100vw;
   height: 25vh;
@@ -84,8 +83,28 @@ body {
   opacity: 0;
   animation: fadeInUp;
   animation-delay: 3s;
-  animation-duration: 2s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
+}
+
+.linkbar {
+  position: fixed;
+  top: calc(50vh - 50px);
+  left: 40px;
+  width: 25px;
+  height: 100px;
+  z-index: 1;
+}
+
+.link-btn {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 15px;
+  transition: all 0.2s;
+}
+
+.link-btn:hover {
+  filter: brightness(70%);
 }
 
 .div-parent {
@@ -121,6 +140,7 @@ body {
   height: 500px;
   margin: 0 auto;
   box-sizing: border-box;
+  box-shadow: 5px 5px 10px black;
   transform: rotate(-5deg);
 }
 
@@ -156,21 +176,6 @@ body {
 
 .txt-btn:active {
   color:#888888;
-}
-
-.img-overlay {
-  background-color: black;
-  position: absolute;
-  top: 0;
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  opacity: 0;
-  transition: all 0.2s;
-}
-
-.img-overlay:hover {
-  opacity: 0.3;
 }
 
 .replay-btn {

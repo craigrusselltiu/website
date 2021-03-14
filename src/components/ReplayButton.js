@@ -8,8 +8,7 @@ const ReplayButton = () => {
 
     return (
         <button className='replay-btn' onClick={reload}>
-            <img style={{width: 36, height: 36}} src={replay} alt='replay'/>
-            <div className='img-overlay' />
+            <img className='link-btn' src={replay} alt='replay' style={{width: 36, height: 36}} />
         </button>
     )
 }

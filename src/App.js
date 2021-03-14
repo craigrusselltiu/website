@@ -8,10 +8,11 @@ import Logo from './components/Logo'
 import ScrollIndicator from './components/ScrollIndicator'
 import FadeBar from './components/FadeBar'
 import Background from './components/Background'
+import LinkBar from './components/LinkBar'
 import Home from './views/Home'
 import Projects from './views/Projects'
 import Contact from './views/Contact'
-import urgot from './images/urgot.png'
+import misty from './images/misty.png'
 
 function App() {
   return (
@@ -20,7 +21,7 @@ function App() {
         <div className='black-box' />
         <div className='screen' />
 
-        <Background img={urgot} />
+        <Background img={misty} />
 
         <FadeBar style={{position: 'absolute', top: 'calc(100vh - 150px)'}} />
         <FadeBar type='top' style={{top: '0px'}} />
@@ -29,6 +30,7 @@ function App() {
         <ScrollIndicator />
         <Logo />
         <Navbar />
+        <LinkBar />
         <ReplayButton />
         <Whitespace />
 
