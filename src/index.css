@@ -89,9 +89,9 @@ body {
 /* Navbar and link bar */
 .navbar {
   position: sticky;
-  top: -10px;
+  top: 10px;
   width: 90vw;
-  margin: 75vh auto 0 auto;
+  margin: 80vh auto 0 auto;
   text-align: center;
   z-index: 1;
   opacity: 0;
@@ -118,6 +118,7 @@ body {
 }
 
 .link-btn:hover img {
+  cursor: pointer;
   filter: brightness(70%);
   transition: all 0.2s;
 }
@@ -160,21 +161,26 @@ body {
 
 .content {
   width: 40vw;
-  margin: 20vh auto 0 auto;
+  margin: 20vh auto;
   text-align: center;
 }
 
 /* Polaroid image */
 .polaroid {
   background-color: #dddddd;
-  position: relative;
-  top: -50px;
+  position: absolute;
+  top: -100px;
   width: 400px;
   height: 500px;
-  margin: 0 auto;
+  margin: auto calc(20vw - 200px);
   box-sizing: border-box;
   box-shadow: 5px 5px 10px black;
-  transform: rotate(-5deg);
+  transform: rotate(-4deg);
+  transition: all 0.5s;
+}
+
+.polaroid-paper {
+  position: relative;
 }
 
 .polaroid-img {
@@ -182,6 +188,28 @@ body {
   top: 5%;
   width: 86%;
   height: 69%;
+}
+
+.polaroid-sig {
+  font-family: 'Courier New', Courier, monospace;
+  position: relative;
+  top: 100px;
+  left: 30px;
+  font-size: 30px;
+  font-weight: bold;
+  opacity: 0;
+}
+
+.polaroid-paper:hover .polaroid {
+  width: 450px;
+  height: 562px;
+  filter: brightness(50%);
+  transform: rotate(0deg);
+}
+
+.polaroid-paper:hover .polaroid-sig {
+  opacity: 1;
+  transition: all 0.5s;
 }
 
 /* General text styling */
@@ -196,8 +224,8 @@ body {
 .txt-btn {
   background-color: transparent;
   display: inline-block;
-  margin: 50px;
-  margin-left: 55px;
+  margin: 10px 80px;
+  margin-top: 30px;
   text-transform: uppercase;
   font-size: 15px;
   font-weight: bold;
@@ -218,6 +246,7 @@ body {
   position: fixed;
   top: 40px;
   left: 40px;
+  height: 36px;
   padding: 0;
   z-index: 1;
   opacity: 0;
@@ -225,6 +254,12 @@ body {
   animation-delay: 3s;
   animation-duration: 2s;
   animation-fill-mode: forwards;
+}
+
+.replay-btn:hover {
+  cursor: pointer;
+  filter: brightness(70%);
+  transition: all 0.2s;
 }
 
 .scroll-img {

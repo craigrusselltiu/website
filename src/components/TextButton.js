@@ -5,7 +5,7 @@ const TextButton = ({ text }) => {
         window.scrollTo({top: window.innerHeight, behavior: 'smooth'})
     }
 
-    if (text === 'home') {
+    if (text === 'homepage') {
         return (
             <Link to={'/'} className='txt-btn' onClick={redirect}>{text}</Link>
         )

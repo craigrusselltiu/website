@@ -7,7 +7,7 @@ const ScrollButton = () => {
     }
 
     return (
-      <div>
+      <div className='link-btn'>
         <Jump forever duration={2000}>
           <img className='scroll-img' src={arrows} alt='scroll' />
         </Jump>

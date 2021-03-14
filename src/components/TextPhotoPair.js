@@ -1,7 +1,8 @@
+import Polaroid from './Polaroid'
 import Fade from 'react-reveal/Fade'
 import misty from '../images/misty.png'
 
-const TextPhotoPair = ({ type, header, text, img }) => {
+const TextPhotoPair = ({ type, header, text, img, sig }) => {
     const distance = '40px'
     const delay = 200
 
@@ -19,9 +20,7 @@ const TextPhotoPair = ({ type, header, text, img }) => {
     
                 <Fade right distance={distance} delay={delay}>
                     <div className='content'>
-                        <div className='polaroid' style={{transform: 'rotate(3deg)'}}>
-                            <img className='polaroid-img' src={img} alt='bg' />
-                        </div>
+                        <Polaroid img={img} sig={sig} />
                     </div>
                 </Fade>
             </div>
@@ -32,9 +31,7 @@ const TextPhotoPair = ({ type, header, text, img }) => {
         <div className='content-parent'>
             <Fade left distance={distance} delay={delay}>
                 <div className='content'>
-                    <div className='polaroid'>
-                        <img className='polaroid-img' src={img} alt='bg' />
-                    </div>
+                    <Polaroid img={img} sig={sig} />
                 </div>
             </Fade>
 
