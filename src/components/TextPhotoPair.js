@@ -1,5 +1,4 @@
 import Fade from 'react-reveal/Fade'
-
 import misty from '../images/misty.png'
 
 const TextPhotoPair = ({ type, header, text, img }) => {
@@ -8,9 +7,9 @@ const TextPhotoPair = ({ type, header, text, img }) => {
 
     if (type === 'left') {
         return (
-            <div className='div-parent'>
+            <div className='content-parent'>
                 <Fade left distance={distance} delay={delay}>
-                    <div className='div-left'>
+                    <div className='content'>
                         <div>
                             <h1 className='txt'>{header}</h1><br/>
                             <p className='txt' style={{textIndent: '45px'}}>{text}</p>
@@ -19,7 +18,7 @@ const TextPhotoPair = ({ type, header, text, img }) => {
                 </Fade>
     
                 <Fade right distance={distance} delay={delay}>
-                    <div className='div-right'>
+                    <div className='content'>
                         <div className='polaroid' style={{transform: 'rotate(3deg)'}}>
                             <img className='polaroid-img' src={img} alt='bg' />
                         </div>
@@ -30,9 +29,9 @@ const TextPhotoPair = ({ type, header, text, img }) => {
     }
     
     return (
-        <div className='div-parent'>
+        <div className='content-parent'>
             <Fade left distance={distance} delay={delay}>
-                <div className='div-left'>
+                <div className='content'>
                     <div className='polaroid'>
                         <img className='polaroid-img' src={img} alt='bg' />
                     </div>
@@ -40,7 +39,7 @@ const TextPhotoPair = ({ type, header, text, img }) => {
             </Fade>
 
             <Fade right distance={distance} delay={delay}>
-                <div className='div-right'>
+                <div className='content'>
                     <div>
                         <h1 className='txt'>{header}</h1><br/>
                         <p className='txt' style={{textIndent: '45px'}}>{text}</p>

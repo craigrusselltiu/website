@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade'
 const TextCenter = ({ header, text }) => {
     return (
         <Fade up distance={'40px'} delay={100}>
-            <div className='div-center'>
+            <div className='content'>
                 <h1 className='txt'>{header}</h1><br/>
                 <p className='txt' style={{textIndent: '45px'}}>{text}</p>
             </div>
