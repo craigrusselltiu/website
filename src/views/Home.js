@@ -7,6 +7,7 @@ const Home = () => {
         <div>
             <TextPhotoPair header='MORE THAN JUST A CODE MONKEY' img={pic1} sig={'Osaka, 2018'} />
             <TextPhotoPair type='left' />
+            <TextCenter />
             <TextPhotoPair />
             <TextCenter />
         </div>

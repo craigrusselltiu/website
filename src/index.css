@@ -86,6 +86,7 @@ body {
   width: 100%;
   height: auto;
   text-align: center;
+  transition: all 0.2s;
 }
 
 /* Navbar and link bar */
@@ -101,10 +102,11 @@ body {
   animation-delay: 3s;
   animation-duration: 1s;
   animation-fill-mode: forwards;
+  transition: all 0.2s;
 }
 
 .linkbar {
-  position: absolute;
+  position: fixed;
   top: calc(50vh - 80px);
   left: 40px;
   width: 25px;
@@ -156,13 +158,13 @@ body {
 
 /* Modular page contents */
 .content-wrapper {
-  display: block;
+  display: flex;
   justify-content: space-between;
   margin: 0 10vw;
 }
 
 .content {
-  width: 80vw;
+  width: 40vw;
   margin: 20vh auto;
   text-align: center;
 }
@@ -172,6 +174,7 @@ body {
   background-color: #dddddd;
   position: absolute;
   top: -150%;
+  left: -50%;
   width: 400px;
   height: 500px;
   margin: auto calc(20vw - 200px);
@@ -204,7 +207,6 @@ body {
   font-size: 50px;
   font-weight: bold;
   opacity: 0;
-  margin-bottom: 500px;
 }
 
 .polaroid-paper:hover .polaroid {
@@ -284,24 +286,44 @@ body {
   cursor: pointer;
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
+  .title {
+    top: 15vh;
+  }
+
+  .navbar {
+    margin-top: 50vh;
+    margin-bottom: 20vh;
+  }
+
   .linkbar {
-    position: fixed;
+    position: absolute;
   }
   
   .content-wrapper {
-    display: flex;
+    display: block;
   }
 
   .content {
-    width: 40vw;
+    width: 80vw;
+  }
+
+  .txt {
+    font-size: 16px;
   }
 
   .polaroid {
-    left: -50%;
+    left: 50px;
+    width: 300px;
+    height: 380px;
   }
 
   .polaroid-sig {
-    margin-bottom: 0px;
+    margin-bottom: 400px;
+  }
+
+  .polaroid-paper:hover .polaroid {
+    width: 350px;
+    height: 450px;
   }
 }
