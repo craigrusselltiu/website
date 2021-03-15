@@ -1,2 +1,2 @@
 # Personal Website
-Exploring creating a personal website through React and GitHub Pages.
+I created this website portfolio as a project to explore single-page applications, dynamic rendering, and responsive design, ultimately sharpening my React and UX/UI design abilities.
