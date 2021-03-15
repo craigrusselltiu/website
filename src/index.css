@@ -63,10 +63,12 @@ body {
 /* Blocks view of background image */
 .screen {
   background-color: rgb(25, 25, 25);
-  position: absolute;
-  top: 100vh;
+  position: sticky;
+  top: 0px;
   width: 100%;
-  height: calc(80% + 200px);
+  margin-top: 100vh;
+  margin-bottom: -200vh;
+  height: 100vh;
   z-index: -1;
 }
 
@@ -195,7 +197,7 @@ body {
   position: relative;
   top: 100px;
   left: 30px;
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   opacity: 0;
 }
@@ -270,4 +272,8 @@ body {
   width: 36px;
   height: 36px;
   z-index: -2;
+}
+
+.scroll-img:hover {
+  cursor: pointer;
 }

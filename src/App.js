@@ -20,7 +20,7 @@ function App() {
     <Router>
       <div className='container'>
         <div className='black-box' />
-        <div className='screen' />
+        <div className='screen' />        
         <Background img={misty} />
         <FadeBar style={{position: 'absolute', top: 'calc(100vh - 150px)'}} />
         <FadeBar type='top' style={{top: '0px'}} />

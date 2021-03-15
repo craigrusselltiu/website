@@ -1,3 +1,5 @@
+import noimage from '../images/noimage.png'
+
 const Polaroid = ({ img, sig }) => {
     return (
         <div className='polaroid-paper'>
@@ -7,6 +9,11 @@ const Polaroid = ({ img, sig }) => {
             <div className='polaroid-sig'>{sig}</div>
         </div>
     )
+}
+
+Polaroid.defaultProps = {
+    img: noimage,
+    sig: 'Signature',
 }
 
 export default Polaroid
