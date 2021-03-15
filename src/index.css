@@ -21,6 +21,7 @@ body {
 
 .container {
   position: absolute;
+  width: fit-content;
   height: fit-content;
 }
 
@@ -65,7 +66,7 @@ body {
   background-color: rgb(25, 25, 25);
   position: sticky;
   top: 0px;
-  width: 100%;
+  width: 100vw;
   margin-top: 100vh;
   margin-bottom: -200vh;
   height: 100vh;
@@ -94,7 +95,7 @@ body {
   position: sticky;
   top: 10px;
   width: 90vw;
-  margin: 80vh auto 0 auto;
+  margin: 80vh auto 30vh;
   text-align: center;
   z-index: 1;
   opacity: 0;
@@ -170,24 +171,22 @@ body {
 }
 
 /* Polaroid image */
+.polaroid-wrapper {
+  position: relative;
+  width: 100%;
+  height: 200px;
+}
+
 .polaroid {
   background-color: #dddddd;
   position: absolute;
-  top: -150%;
-  left: -50%;
+  top: -75px;
   width: 400px;
   height: 500px;
-  margin: auto calc(20vw - 200px);
-  box-sizing: border-box;
+  margin: 0 calc(50% - 200px);
   box-shadow: 5px 5px 10px black;
   transform: rotate(-4deg);
   transition: all 0.5s;
-}
-
-.polaroid-paper {
-  position: relative;
-  width: 50%;
-  margin: 0 auto;
 }
 
 .polaroid-img {
@@ -195,30 +194,38 @@ body {
   top: 5%;
   width: 86%;
   height: 69%;
+  transition: all 0.5s;
 }
 
 .polaroid-sig {
-  font-family: 'Courier New', Courier, monospace;
   position: relative;
-  top: 100px;
-  left: 25px;
+  top: -348px;
   width: 100%;
-  margin: 0 auto;
+  height: 100%;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 50px;
   font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
   opacity: 0;
+  transition: all 0.5s;
 }
 
-.polaroid-paper:hover .polaroid {
+.polaroid:hover {
   width: 450px;
   height: 562px;
-  filter: brightness(50%);
+  background-color: #666666;
   transform: rotate(0deg);
 }
 
-.polaroid-paper:hover .polaroid-sig {
+.polaroid:hover .polaroid-img {
+  filter: brightness(50%);
+}
+
+.polaroid:hover .polaroid-sig {
   opacity: 1;
-  transition: all 0.5s;
 }
 
 /* General text styling */
@@ -287,13 +294,8 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-  .title {
-    top: 15vh;
-  }
-
   .navbar {
-    margin-top: 50vh;
-    margin-bottom: 20vh;
+    margin-bottom: 40vh;
   }
 
   .linkbar {
@@ -315,15 +317,16 @@ body {
   .polaroid {
     left: 50px;
     width: 300px;
-    height: 380px;
+    height: 375px;
   }
 
   .polaroid-sig {
-    margin-bottom: 400px;
+    top: -263px;
+    font-size: 40px;
   }
 
-  .polaroid-paper:hover .polaroid {
-    width: 350px;
+  .polaroid:hover {
+    width: 360px;
     height: 450px;
   }
 }

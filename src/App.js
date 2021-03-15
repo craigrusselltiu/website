@@ -30,7 +30,7 @@ function App() {
         <Navbar />
         <LinkBar />
         <ReplayButton />
-        <Whitespace />
+
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/projects' component={Projects} />
