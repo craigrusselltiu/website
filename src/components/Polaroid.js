@@ -1,4 +1,4 @@
-import noimage from '../images/noimage.png'
+import noimage from '../images/no-image.png'
 
 const Polaroid = ({ img, sig }) => {
     return (

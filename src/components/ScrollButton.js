@@ -11,7 +11,7 @@ const ScrollButton = () => {
         <Jump forever duration={2000}>
           <img className='scroll-img' src={arrows} alt='scroll' />
         </Jump>
-        <button className='scroll-img' onClick={redirect} style={{height: '60px', zIndex: 0}} />
+        <button className='scroll-img' onClick={redirect} style={{height: '60px', zIndex: 1}} />
       </div>
     )
 }
