@@ -7,7 +7,7 @@ const TextPhotoPair = ({ type, header, text, img, sig }) => {
 
     if (type === 'left') {
         return (
-            <div className='content-parent'>
+            <div className='content-wrapper'>
                 <Fade left distance={distance} delay={delay}>
                     <div className='content'>
                         <div>
@@ -27,7 +27,7 @@ const TextPhotoPair = ({ type, header, text, img, sig }) => {
     }
     
     return (
-        <div className='content-parent'>
+        <div className='content-wrapper'>
             <Fade left distance={distance} delay={delay}>
                 <div className='content'>
                     <Polaroid img={img} sig={sig} />
