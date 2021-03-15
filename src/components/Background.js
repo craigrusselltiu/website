@@ -1,4 +1,4 @@
-import misty from '../images/misty.png'
+import noimage from '../images/no-image.png'
 
 const Background = ({ img }) => {
     return (
@@ -9,7 +9,7 @@ const Background = ({ img }) => {
 }
 
 Background.defaultProps = {
-    img: misty,
+    img: noimage,
 }
 
 export default Background

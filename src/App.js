@@ -12,7 +12,7 @@ import LinkBar from './components/LinkBar'
 import Home from './views/Home'
 import Projects from './views/Projects'
 import Contact from './views/Contact'
-import misty from './images/misty.png'
+import bg from './images/background.png'
 import 'animate.css'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
       <div className='container'>
         <div className='black-box' />
         <div className='screen' />        
-        <Background img={misty} />
+        <Background img={bg} />
         <FadeBar style={{position: 'absolute', top: 'calc(100vh - 150px)'}} />
         <FadeBar type='top' style={{top: '0px'}} />
         <FadeBar style={{bottom: '-4px'}} />

@@ -2,7 +2,7 @@
 * {
   font-family: 'Roboto', sans-serif;
   text-decoration: none;
-  text-shadow: 2px 2px 3px black;
+  text-shadow: 3px 3px 4px black;
   color: #FFFFFF;
   outline: none;
   border-style: none;
@@ -223,6 +223,7 @@ body {
   font-size: 20px;
   text-align: justify;
   line-height: 1.8;
+  transition: all 0.2s;
 }
 
 /* Buttons */
