@@ -2,7 +2,6 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
 import ReplayButton from './components/ReplayButton'
-import Whitespace from './components/Whitespace'
 import Logo from './components/Logo'
 import ScrollButton from './components/ScrollButton'
 import FadeBar from './components/FadeBar'
@@ -30,7 +29,6 @@ function App() {
         <Navbar />
         <LinkBar />
         <ReplayButton />
-
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/projects' component={Projects} />

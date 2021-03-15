@@ -1,4 +1,5 @@
 import Polaroid from './Polaroid'
+import TextCenter from './TextCenter'
 import Fade from 'react-reveal/Fade'
 
 const TextPhotoPair = ({ type, header, text, img, sig }) => {
@@ -9,38 +10,23 @@ const TextPhotoPair = ({ type, header, text, img, sig }) => {
         return (
             <div className='content-wrapper'>
                 <Fade left distance={distance} delay={delay}>
-                    <div className='content'>
-                        <div>
-                            <h1 className='txt'>{header}</h1><br/>
-                            <p className='txt' style={{textIndent: '45px'}}>{text}</p>
-                        </div>
-                    </div>
+                    <TextCenter header={header} text={text} nofade={true} />
                 </Fade>
     
                 <Fade right distance={distance} delay={delay}>
-                    <div className='content'>
-                        <Polaroid img={img} sig={sig} />
-                    </div>
+                    <Polaroid img={img} sig={sig} />
                 </Fade>
             </div>
         )
-    }
-    
+    }    
     return (
         <div className='content-wrapper'>
             <Fade left distance={distance} delay={delay}>
-                <div className='content'>
-                    <Polaroid img={img} sig={sig} />
-                </div>
+                <Polaroid img={img} sig={sig} />
             </Fade>
 
             <Fade right distance={distance} delay={delay}>
-                <div className='content'>
-                    <div>
-                        <h1 className='txt'>{header}</h1><br/>
-                        <p className='txt' style={{textIndent: '45px'}}>{text}</p>
-                    </div>
-                </div>
+                <TextCenter header={header} text={text} nofade={true} />
             </Fade>
         </div>
     )

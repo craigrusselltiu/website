@@ -1,8 +1,16 @@
 import Fade from 'react-reveal/Fade'
 
-const TextCenter = ({ header, text }) => {
+const TextCenter = ({ header, text, nofade }) => {
+    if (nofade) {
+        return (
+            <div className='content'>
+                <h1 className='txt'>{header}</h1><br/>
+                <p className='txt' style={{textIndent: '45px'}}>{text}</p>
+            </div>
+        )
+    }
     return (
-        <Fade up distance={'40px'} delay={100}>
+        <Fade up distance={'40px'} delay={200}>
             <div className='content'>
                 <h1 className='txt'>{header}</h1><br/>
                 <p className='txt' style={{textIndent: '45px'}}>{text}</p>
