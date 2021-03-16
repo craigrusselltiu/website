@@ -32,7 +32,7 @@ body {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: #555;
+  background: rgb(100, 100, 100);
 }
 
 .container {
@@ -415,5 +415,21 @@ body {
 
   .project-btn {
     margin: 30px 10px 0;
+  }
+
+  @media screen and (max-width: 800px) {
+    .title {
+      top: 10vh;
+    }
+
+    .navbar {
+      margin: 30vh 5vw 80vh;
+    }
+  }
+
+  @media screen and (max-width: 1054px) {
+    .txt-btn {
+      margin: 10px 80px 0;
+    }
   }
 }

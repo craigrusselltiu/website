@@ -4,7 +4,7 @@ import LinkButton from './LinkButton'
 
 import myResume from '../resume/resume.pdf'
 import github from '../images/github.png'
-import gmail from '../images/gmail.png'
+// import gmail from '../images/gmail.png'
 import linkedin from '../images/linkedin.png'
 import resume from '../images/resume.png'
 
