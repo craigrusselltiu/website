@@ -1,5 +1,6 @@
-import TextPhotoPair from '../components/TextPhotoPair'
 import TextCenter from '../components/TextCenter'
+import TextPhotoPair from '../components/TextPhotoPair'
+
 import pic1 from '../images/pic1.png'
 
 const Home = () => {

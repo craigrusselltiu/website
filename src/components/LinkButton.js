@@ -11,6 +11,7 @@ const LinkButton = ({ img, style, link, download, tooltip }) => {
             </a>
         )
     }
+    
     return (
         <a href={link} target='_blank' rel='noreferrer'>
             <button className='link-btn' style={style}>

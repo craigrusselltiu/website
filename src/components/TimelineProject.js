@@ -1,6 +1,7 @@
-import ProjectText from './ProjectText'
-import ProjectSnapshot from './ProjectSnapshot'
 import Fade from 'react-reveal/Fade'
+
+import ProjectSnapshot from './ProjectSnapshot'
+import ProjectText from './ProjectText'
 
 const TimelineProject = ({ img, icon, button, link, source, priv, title, subtitle, text, technologies }) => {
     return (

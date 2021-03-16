@@ -1,17 +1,17 @@
 import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
+import Background from './components/Background'
+import FadeBar from './components/FadeBar'
+import LinkBar from './components/LinkBar'
+import Logo from './components/Logo'
 import Navbar from './components/Navbar'
 import ReplayButton from './components/ReplayButton'
-import Logo from './components/Logo'
 import ScrollButton from './components/ScrollButton'
-import FadeBar from './components/FadeBar'
-import Background from './components/Background'
-import LinkBar from './components/LinkBar'
 
 import Home from './views/Home'
 import Projects from './views/Projects'
 import Contact from './views/Contact'
-import bg from './images/background.png'
+import bg from './images/background2.png'
 import 'animate.css'
 
 function App() {
@@ -19,7 +19,8 @@ function App() {
     <Router>
       <div className='container'>
         <div className='black-box' />
-        <div className='screen' />        
+        <div className='screen' />
+
         <Background img={bg} />
         <FadeBar style={{position: 'absolute', top: 'calc(100vh - 150px)'}} />
         <FadeBar type='top' style={{top: '0px'}} />
@@ -29,6 +30,7 @@ function App() {
         <Navbar />
         <LinkBar />
         <ReplayButton />
+
         <Switch>
           <Route path='/' exact component={Home} />
           <Route path='/projects' component={Projects} />

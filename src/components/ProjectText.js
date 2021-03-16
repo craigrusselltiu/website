@@ -5,7 +5,7 @@ const ProjectText = ({ title, subtitle, text, technologies }) => {
             <h1 className='txt' style={{marginTop: 0, fontSize: '16px'}}>{subtitle}</h1><br/>
             <p className='txt' style={{textIndent: '45px'}}>{text}</p>
             <p className='txt'>
-                <h1 className='txt'>TECHNOLOGIES:</h1> {technologies}
+                <h1 className='txt'>TOOLS USED:</h1> {technologies}
             </p>
         </div>
     )

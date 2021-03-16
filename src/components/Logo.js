@@ -1,4 +1,5 @@
 import Fade from 'react-reveal/Fade'
+
 import craig from '../images/craig.png'
 
 const Logo = () => {

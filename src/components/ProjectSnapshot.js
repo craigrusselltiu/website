@@ -1,14 +1,15 @@
 import ProjectButton from './ProjectButton'
 import ProjectImage from './ProjectImage'
-import eye from '../images/private.png'
+
 import code from '../images/code.png'
+import eye from '../images/private.png'
 
 const ProjectSnapshot = ({ img, icon, button, link, source, priv }) => {
     if (priv) {
         return (
             <div className='content' style={{width: '500px'}}>
                 <ProjectImage img={img} />
-                <ProjectButton icon={eye} />
+                <ProjectButton icon={eye} text={'PRIVATE'} />
             </div>
         )
     }

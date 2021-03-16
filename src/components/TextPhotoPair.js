@@ -1,6 +1,7 @@
+import Fade from 'react-reveal/Fade'
+
 import Polaroid from './Polaroid'
 import TextCenter from './TextCenter'
-import Fade from 'react-reveal/Fade'
 
 const TextPhotoPair = ({ type, header, text, img, sig }) => {
     const distance = '40px'
