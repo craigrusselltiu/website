@@ -1,15 +1,17 @@
-import TextCenter from './TextCenter'
-import ProjectImage from './ProjectImage'
+import ProjectText from './ProjectText'
+import ProjectSnapshot from './ProjectSnapshot'
 import Fade from 'react-reveal/Fade'
 
-const TimelineProject = () => {
+const TimelineProject = ({ img, icon, button, link, source, priv, title, subtitle, text, technologies }) => {
     return (
         <div className='content-wrapper'>
-            <div className='timeline-line' />
-            <div className='timeline-circle' />
+            <div className='timeline-line'>
+                <div className='timeline-circle' />
+            </div>
+
             <Fade right distance={'40px'} delay={200}>
-                <ProjectImage />
-                <TextCenter nofade={true} />
+                <ProjectSnapshot img={img} icon={icon} button={button} link={link} source={source} priv={priv} />
+                <ProjectText title={title} subtitle={subtitle} text={text} technologies={technologies} />
             </Fade>
         </div>
     )

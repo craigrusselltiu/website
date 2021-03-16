@@ -7,11 +7,16 @@ const TextButton = ({ text }) => {
 
     if (text === 'homepage') {
         return (
-            <Link to={'/'} className='txt-btn' onClick={redirect}>{text}</Link>
+            <Link to={'/'} className='txt-btn' onClick={redirect}>
+                <p>{text}</p>
+            </Link>
         )
     }
+    
     return (
-        <Link to={'/'+text} className='txt-btn' onClick={redirect}>{text}</Link>
+        <Link to={'/'+text} className='txt-btn' onClick={redirect}>
+            <p>{text}</p>
+        </Link>
     )
 }
 
