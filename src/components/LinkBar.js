@@ -3,10 +3,9 @@ import Fade from 'react-reveal/Fade'
 import LinkButton from './LinkButton'
 
 import myResume from '../resume/resume.pdf'
-import github from '../images/github.png'
-// import gmail from '../images/gmail.png'
-import linkedin from '../images/linkedin.png'
-import resume from '../images/resume.png'
+import github from '../images/icon-github.png'
+import linkedin from '../images/icon-linkedin.png'
+import resume from '../images/icon-resume.png'
 
 const LinkBar = () => {
     return (
@@ -14,7 +13,6 @@ const LinkBar = () => {
             <div className='linkbar'>
                 <LinkButton img={github} link={'https://github.com/craigrusselltiu'} tooltip='GitHub' />
                 <LinkButton img={linkedin} link={'https://www.linkedin.com/in/craig-tiu/'} tooltip='LinkedIn' />
-                {/* <LinkButton img={gmail} tooltip='Gmail' /> */}
                 <LinkButton img={resume} link={myResume} download={true} tooltip='Resume' />
             </div>
         </Fade>

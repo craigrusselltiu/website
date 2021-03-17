@@ -1,4 +1,4 @@
-import replay from '../images/replay.png'
+import replay from '../images/icon-replay.png'
 
 const ReplayButton = () => {
     const reload = () => {
@@ -8,7 +8,11 @@ const ReplayButton = () => {
 
     return (
         <button className='replay-btn' onClick={reload}>
-            <img className='link-btn' src={replay} alt='replay' style={{width: 36, height: 36, marginBottom: '0px'}} />
+            <img className='link-btn' src={replay} alt='replay' style={{
+                width: 36,
+                height: 36,
+                marginBottom: '0px'
+            }} />
         </button>
     )
 }

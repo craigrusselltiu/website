@@ -1,5 +1,3 @@
-import github from '../images/github.png'
-
 const LinkButton = ({ img, style, link, download, tooltip }) => {
     if (download) {
         return (
@@ -23,7 +21,6 @@ const LinkButton = ({ img, style, link, download, tooltip }) => {
 }
 
 LinkButton.defaultProps = {
-    img: github,
     link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
 }
 

@@ -1,6 +1,6 @@
 import Jump from 'react-reveal/Jump'
 
-import arrows from '../images/scroll.png'
+import arrows from '../images/scroll-down.png'
 
 const ScrollButton = () => {
     const redirect = () => {

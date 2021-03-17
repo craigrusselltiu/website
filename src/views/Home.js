@@ -5,7 +5,7 @@ import pic1 from '../images/pic1.png'
 
 const Home = () => {
     return (
-        <div>
+        <>
             <TextPhotoPair
                 header='MORE THAN JUST A CODE MONKEY'
                 text="Hey! My name's Craig and I'm a software engineer. I'm a passionate programmer, people person, problem solver, and a naturally techy guy —
@@ -19,7 +19,7 @@ const Home = () => {
             <TextCenter />
             <TextPhotoPair />
             <TextCenter />
-        </div>
+        </>
     )
 }
 
