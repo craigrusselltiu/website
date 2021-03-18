@@ -1,5 +1,4 @@
 import Fade from 'react-reveal/Fade'
-
 import ProjectSnapshot from './ProjectSnapshot'
 import ProjectText from './ProjectText'
 

@@ -1,26 +1,14 @@
 import TimelineDate from '../components/TimelineDate'
 import TimelineProject from '../components/TimelineProject'
-
-import eye from '../images/icon-eye.png'
-import noeye from '../images/icon-noeye.png'
-import video from '../images/icon-video.png'
-
-import p_beer from '../images/project-beer.png'
-import p_coffee from '../images/project-coffee.png'
-import p_pvz from '../images/project-pvz.png'
-import p_quarantinder from '../images/project-quarantinder.png'
-import p_radiomics from '../images/project-radiomics.png'
-import p_thesis from '../images/project-thesis.png'
-import p_website from '../images/project-website.png'
-import p_yoshi from '../images/project-yoshi.png'
+import * as images from '../images'
 
 const Projects = () => {
     return (
         <>
             <TimelineDate text='PRESENT' />
             <TimelineProject
-                img={p_website}
-                icon={eye}
+                img={images.p_website}
+                icon={images.eye}
                 button='DEMO'
                 link='https://craigrusselltiu.github.io/website/'
                 source='https://github.com/craigrusselltiu/website'
@@ -34,21 +22,21 @@ const Projects = () => {
             />
             <TimelineDate text='2021' />
             <TimelineProject
-                img={p_thesis}
-                icon={eye}
+                img={images.p_thesis}
+                icon={images.eye}
                 button='READ'
                 link='https://drive.google.com/file/d/1MI6_kl-o5M0dGshCegiPqw7YcHJW4h21/view?usp=sharing'
                 source='https://github.com/craigrusselltiu/pca-deep-learning'
                 title='THESIS PROJECT'
                 subtitle='December 2020'
-                text="My thesis project was mainly a research-based one that focused on improving how we classify prostate cancer aggressiveness through machine learning methods.
-                    Although it did not outperform existing methods, it is one of the first projects that utilise automatic augmentation for medical images,
+                text="My thesis project was mainly a research-based one that focused on improving how we classify prostate cancer aggressiveness through machine learning.
+                    Although my model implementation did not outperform existing methods, it still is one of the first projects to utilise automatic augmentation for medical images,
                     serving as a baseline for future research."
                 technologies='Python, Keras, TensorFlow'
             />
             <TimelineProject
-                img={p_quarantinder}
-                icon={video}
+                img={images.p_quarantinder}
+                icon={images.video}
                 button='VIDEO'
                 link='https://www.youtube.com/watch?v=3bilCTwv8tc'
                 source='https://github.com/craigrusselltiu/quarantinder'
@@ -61,7 +49,7 @@ const Projects = () => {
                 technologies='Spring Boot/Java, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
             />
             <TimelineProject
-                img={p_radiomics}
+                img={images.p_radiomics}
                 priv={true}
                 title='LUNG CANCER ANALYSIS TOOL'
                 subtitle='February 2020'
@@ -74,14 +62,14 @@ const Projects = () => {
             />
             <TimelineDate text='2020' />
             <TimelineProject
-                img={p_beer}
+                img={images.p_beer}
                 priv={true}
                 title='PALE ALE'
                 subtitle='November 2019'
-                text="This was a beer collection web app I worked with a team on for a client.
+                text="Pale Ale was a beer collection web app I worked on with a team for a client.
                     I was a frontend developer for this project, where I had to quickly learned React to use on the project.
                     It has since been taken down from AWS EC2, so demo is currently unavailable."
-                technologies='ReactJS, CSS, MongoDB, AWS'
+                technologies='ReactJS, Bootstrap, CSS, MongoDB, AWS, Bitbucket'
             />
             {/*
                 <TimelineDate text='2019' />
@@ -90,33 +78,33 @@ const Projects = () => {
             */}
             <TimelineDate text='2019' />
             <TimelineProject
-                img={p_yoshi}
-                icon={video}
+                img={images.p_yoshi}
+                icon={images.video}
                 button='VIDEO'
                 // link='https://www.youtube.com/watch?v=3bilCTwv8tc'
                 source='https://github.com/craigrusselltiu/yoshis-island'
                 title="YOSHI'S ISLAND RECREATION"
                 subtitle='November 2018'
-                text="I worked on another personal game project where I attempted to write a basic recreation of the platforming aspect of the game Yoshi's Island using Qt Creator.
+                text="I worked on another personal game project where I wrote a basic recreation of the platforming aspect of the game Yoshi's Island using Qt Creator.
                     My goal for this project was to practically apply some concepts I learned in university, including object-oriented programming and design patterns with C++."
                 technologies='C++, Qt Creator'
             />
             <TimelineDate text='2018' />
             <TimelineProject
-                img={p_coffee}
-                icon={noeye}
+                img={images.p_coffee}
+                icon={images.noeye}
                 button='N/A'
                 source='https://github.com/craigrusselltiu/coffee-bot'
                 title='COFFEE BOT'
                 subtitle='MARCH 2017'
                 text="Perhaps one of my first Java programs. It's a very simple command line application that emulates how a basic coffee shop exchange looks like.
                     It may not be groundbreaking or barely even be considered a 'project', but this marks my official decision to pursue software engineering as a career."
-                technologies='Java'
+                technologies='Java, Visual Studio Code'
             />
             <TimelineDate text='2011' />
             <TimelineProject
-                img={p_pvz}
-                icon={eye}
+                img={images.p_pvz}
+                icon={images.eye}
                 button='DEMO'
                 link='https://www.roblox.com/games/25935872/Plants-vs-Zombies-Tycoon'
                 source='https://github.com/craigrusselltiu/plants-vs-zombies-tycoon'
@@ -125,7 +113,7 @@ const Projects = () => {
                 text="This game was the very first coding project I completed when I was just 12 years old, and has now been played by over 1.8 million players.
                     This will always be a project that I am proud of, as it was one of the initial forces that nudged me towards the path of software engineering.
                     (Note that to actually play it will require the installation of the Roblox engine.)"
-                technologies='Lua'
+                technologies='Lua, Roblox Engine'
             />
         </>
     )

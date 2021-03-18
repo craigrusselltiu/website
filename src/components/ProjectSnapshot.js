@@ -1,8 +1,6 @@
 import ProjectButton from './ProjectButton'
 import ProjectImage from './ProjectImage'
-
-import code from '../images/icon-code.png'
-import noeye from '../images/icon-noeye.png'
+import { code, noeye } from '../images'
 
 const ProjectSnapshot = ({ img, icon, button, link, source, priv }) => {
     if (priv) {

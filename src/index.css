@@ -355,6 +355,26 @@ body {
   filter: brightness(50%);
 }
 
+/* List styling */
+.list-content {
+  margin: 20vh auto;
+  width: 40vw;
+  max-width: 20vw;
+  text-align: center;
+}
+
+.list-item {
+  margin-left: 5vw;
+  margin-bottom: -35px;
+  text-align: left;
+}
+
+.list-icon {
+  position: relative;
+  top: 5px;
+  left: -20px;
+}
+
 /* Master media query */
 @media screen and (max-width: 1200px) {
   .navbar {
@@ -416,6 +436,10 @@ body {
 
   .project-btn {
     margin: 30px 10px 0;
+  }
+
+  .list-content {
+    max-width: 40vw;
   }
 
   @media screen and (max-width: 800px) {

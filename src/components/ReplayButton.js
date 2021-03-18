@@ -1,4 +1,4 @@
-import replay from '../images/icon-replay.png'
+import { replay } from '../images'
 
 const ReplayButton = () => {
     const reload = () => {
