@@ -245,7 +245,7 @@ body {
   justify-content: center;
   opacity: 0;
   position: relative;
-  top: -348px;
+  top: -430px;
   width: 100%;
   height: 100%;
   transition: all 0.5s;
@@ -406,7 +406,7 @@ body {
 
   .polaroid-sig {
     font-size: 40px;
-    top: -263px;
+    top: -310px;
   }
 
   .polaroid:hover {
