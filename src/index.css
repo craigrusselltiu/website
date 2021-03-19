@@ -365,7 +365,7 @@ body {
 
 .list-item {
   margin-left: 5vw;
-  margin-bottom: -35px;
+  margin-bottom: -40px;
   text-align: left;
 }
 
@@ -439,7 +439,12 @@ body {
   }
 
   .list-content {
-    max-width: 40vw;
+    width: 60vw;
+    max-width: 60vw;
+  }
+
+  .list-item {
+    margin-bottom: -30px;
   }
 
   @media screen and (max-width: 800px) {

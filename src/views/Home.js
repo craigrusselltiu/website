@@ -8,7 +8,7 @@ import * as images from '../images'
 
 const Home = () => {
     const languages = [
-        {icon: images.eye, text: 'Python'},
+        {icon: images.python, text: 'Python'},
         {icon: images.eye, text: 'Java'},
         {icon: images.eye, text: 'C'},
         {icon: images.eye, text: 'C++'},
@@ -24,7 +24,7 @@ const Home = () => {
     ]
 
     const frameworks = [
-        {icon: images.eye, text: 'React'},
+        {icon: images.react, text: 'React'},
         {icon: images.eye, text: 'Bootstrap'},
         {icon: images.eye, text: 'Spring Boot'},
         {icon: images.eye, text: 'JUnit'},
@@ -65,8 +65,6 @@ const Home = () => {
             </div>
             
             <TextPhotoPair type='left' />
-            <TextCenter />
-            <TextPhotoPair />
             <TextCenter />
         </>
     )

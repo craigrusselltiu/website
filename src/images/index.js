@@ -4,6 +4,8 @@ import github from './icons/github.png'
 import gmail from './icons/gmail.png'
 import linkedin from './icons/linkedin.png'
 import noeye from './icons/noeye.png'
+import python from './icons/python.png'
+import react from './icons/react.png'
 import replay from './icons/replay.png'
 import resume from './icons/resume.png'
 import video from './icons/video.png'
@@ -24,6 +26,8 @@ export {
     gmail,
     linkedin,
     noeye,
+    python,
+    react,
     replay,
     resume,
     video,
