@@ -10,7 +10,7 @@ const LinkBar = () => {
             <div className='linkbar'>
                 <LinkButton img={github} link={'https://github.com/craigrusselltiu'} tooltip='GitHub' />
                 <LinkButton img={linkedin} link={'https://www.linkedin.com/in/craig-tiu/'} tooltip='LinkedIn' />
-                <LinkButton img={gmail} link={'mailto:craigrusselltiu@gmail.com'} tooltip='Gmail' />
+                <LinkButton img={gmail} link={'mailto:craigrusselltiu@gmail.com'} tooltip='Email' />
                 <LinkButton img={resume} link={myResume} download={true} tooltip='Resume' />
             </div>
         </Fade>

@@ -3,7 +3,10 @@ import TextCenter from '../components/TextCenter'
 const Contact = () => {
     return (
         <>
-            <TextCenter header='CONTACT' />
+            <TextCenter
+                header='CONTACT'
+                text=""
+            />
         </>
     )
 }

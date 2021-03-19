@@ -24,7 +24,7 @@ const Home = () => {
     ]
 
     const frameworks = [
-        {icon: images.react, text: 'React'},
+        {icon: images.react, text: 'ReactJS'},
         {icon: images.eye, text: 'Bootstrap'},
         {icon: images.eye, text: 'Spring Boot'},
         {icon: images.eye, text: 'JUnit'},
