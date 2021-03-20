@@ -5,7 +5,7 @@ Website Link: https://craigrusselltiu.github.io/website
 
 ## What I Learned
 - Single-page applications
-- Responsive design
+- Responsive design through CSS media queries
 - React (improvement) 
 - Functional components
 - Setting and using react states
