@@ -11,6 +11,7 @@ Website Link: https://craigrusselltiu.github.io/website
 - Setting and using react states
 - React Router
 - UX/UI (improvement)
+- HTML (improvement)
 - CSS animations
 - Using email REST API to send portfolio web form
 - Among other things!
