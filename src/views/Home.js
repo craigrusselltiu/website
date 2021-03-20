@@ -1,5 +1,6 @@
 import Fade from 'react-reveal/Fade'
 import IconList from '../components/IconList'
+import Footer from '../components/Footer'
 import Quote from '../components/Quote'
 import TextPhotoPair from '../components/TextPhotoPair'
 import pic1 from '../images/pic1.png'
@@ -65,14 +66,15 @@ const Home = () => {
             <TextPhotoPair
                 type='left'
                 header="WHEN I'M NOT HACKING INTO THE MAINFRAME"
-                text="In my spare time I like to travel and explore new things (admittedly mostly food), and play the piano to wind down and destress.
+                text="In my spare time I like to travel and explore new things (admittedly mostly food) and play the piano to wind down and destress.
                     I've also recently been keeping up with whatever Elon Musk is up to, as I'm sure that he's got some sort of an evil master plan.
-                    Working on some side projects like this portfolio is something that I like doing as well, keeping me sharp and on my toes at all times."
+                    Working on cool side projects like this portfolio is something that I enjoy doing as well, keeping me sharp and on my toes at all times."
                 img={pic2}
                 sig={'Kyoto, 2018'}
             />
 
             <Quote text={'"Here\'s the thing about time; if you can\'t make the most out of any given moment, you don\'t deserve a single extra second." — Ekko, The Boy Who Shattered Time'} />
+            <Footer />
         </>
     )
 }

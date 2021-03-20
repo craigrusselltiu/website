@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade'
 import emailjs from "emailjs-com"
+import Footer from '../components/Footer'
 import TextCenter from '../components/TextCenter'
 
 const Contact = () => {
@@ -15,7 +16,7 @@ const Contact = () => {
             console.log(error.text);
         });
         e.target.reset()
-        setText('Sent!')
+        setText('The raven has been sent.')
     }
 
     return (
@@ -31,17 +32,17 @@ const Contact = () => {
                     <div className='content'>
                         <form className="contact-form" onSubmit={sendEmail}>
                             <h1 className='txt'>EMAIL FORM</h1>
-                            <input className='form' type="text" placeholder="Subject" name="subject" /><br />
                             <input className='form' type="text" placeholder="Name" name="name" /><br />
                             <input className='form' type="email" placeholder="E-mail" name="email" /><br />
+                            <input className='form' type="text" placeholder="Subject" name="subject" /><br />
                             <textarea className='form' placeholder="Message To Craig" name="message" style={{height: '200px'}} /><br />
                             <input className='form-btn' type="submit" value="Send" /><br />
                             <p className='txt'>{text}</p>
                         </form>
                     </div>
-                    
                 </div>
             </Fade>
+            <Footer />
         </>
     )
 }

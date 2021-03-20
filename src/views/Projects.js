@@ -1,3 +1,4 @@
+import Footer from '../components/Footer'
 import TimelineDate from '../components/TimelineDate'
 import TimelineProject from '../components/TimelineProject'
 import * as images from '../images'
@@ -21,7 +22,7 @@ const Projects = () => {
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
                     ultimately sharpening my React and UX/UI design abilities.
                     My goal was to have one access point to showcase all my work, as well as refresh and improve my frontend development capabilities, hitting two birds with one stone.
-                    Aside from fading animations and some icons, all code and assets were designed and created by myself. (Resize the window and see how the website adapts!)"
+                    Aside from the fading animations and some icons, all code and assets were designed and created by myself. (Resize the window and see how the website adapts!)"
                 technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
             />
             <TimelineDate text='2021' />
@@ -60,8 +61,7 @@ const Projects = () => {
                 text="I designed and implemented a radiomics tool with a research partner at The Westmead Institute for Medical Research.
                     The tool extracts features from the tumor of 3D lung cancer patient CT images and utilises machine learning in analysing them,
                     specifically ones who have undergone stereotactic radiotherapy, to predict metastasis.
-                    Because the software interacts with sensitive information including patient medical records, public access is prohibited.
-                    (Open the image in a new tab for a closer look!)"
+                    Because the software interacts with sensitive information including patient medical records, public access is prohibited."
                 technologies='Python, PyTorch, SciPy, Tkinter'
             />
             <TimelineDate text='2020' />
@@ -71,6 +71,7 @@ const Projects = () => {
                 title='PALE ALE'
                 subtitle='November 2019'
                 text="Pale Ale was a beer collection web app I worked on with a team for a client.
+                    The app allowed users to log, store, track, and manage their personal beer collections in different containers.
                     I was a frontend developer for this project, where I had to quickly learned React to use on the project.
                     It has since been taken down from AWS, so demo is currently unavailable."
                 technologies='ReactJS, Bootstrap, CSS, MongoDB, AWS, Bitbucket'
@@ -103,6 +104,7 @@ const Projects = () => {
                     (Note that to actually play it will require the installation of the Roblox engine.)"
                 technologies='Lua, Roblox Engine'
             />
+            <Footer />
         </>
     )
 }

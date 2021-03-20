@@ -1,6 +1,6 @@
 /* Default CSS styling across website */
 * {
-  color: #FFFFFF;
+  color: #ffffff;
   border-style: none;
   font-family: 'Roboto', sans-serif;
   outline: none;
@@ -399,6 +399,15 @@ body {
 .form-btn:hover {
   filter: brightness(50%);
   cursor: pointer;
+}
+
+.footer {
+  background-color: rgb(32, 32, 32);
+  position: absolute;
+  width: 100vw;
+  height: 50px;
+  text-align: center;
+  z-index: 1;
 }
 
 /* Master media query */
