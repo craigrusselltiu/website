@@ -1,8 +1,11 @@
+import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade'
 import emailjs from "emailjs-com"
 import TextCenter from '../components/TextCenter'
 
 const Contact = () => {
+    const [text, setText] = useState('');
+
     function sendEmail(e) {
         e.preventDefault();
     
@@ -12,13 +15,14 @@ const Contact = () => {
             console.log(error.text);
         });
         e.target.reset()
+        setText('Sent!')
     }
 
     return (
         <>
             <TextCenter
-                header='CONTACT'
-                text="If you would like to reach out, just shoot me an email by clicking the email button on the left-most bar of the page or use the email form below.
+                header='CALL ME MAYBE'
+                text="If you would like to reach out, just shoot me an email by clicking the email button on the left sidebar of the page or use the email form below.
                     I'll be more than happy to have a chat and answer any questions you may have!"
             />
 
@@ -30,10 +34,12 @@ const Contact = () => {
                             <input className='form' type="text" placeholder="Subject" name="subject" /><br />
                             <input className='form' type="text" placeholder="Name" name="name" /><br />
                             <input className='form' type="email" placeholder="E-mail" name="email" /><br />
-                            <textarea className='form' type="text" placeholder="Message To Craig" name="subject" style={{height: '200px'}} /><br />
-                            <input className='form-btn' type="submit" value="Send" />
+                            <textarea className='form' placeholder="Message To Craig" name="message" style={{height: '200px'}} /><br />
+                            <input className='form-btn' type="submit" value="Send" /><br />
+                            <p className='txt'>{text}</p>
                         </form>
                     </div>
+                    
                 </div>
             </Fade>
         </>
