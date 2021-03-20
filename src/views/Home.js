@@ -25,6 +25,7 @@ const Home = () => {
 
     const frameworks = [
         {icon: images.react, text: 'ReactJS'},
+        {icon: images.tailwind, text: 'Tailwind CSS'},
         {icon: images.bootstrap, text: 'Bootstrap'},
         {icon: images.spring, text: 'Spring Boot'},
         {icon: images.junit, text: 'JUnit'},

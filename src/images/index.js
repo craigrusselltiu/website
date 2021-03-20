@@ -31,6 +31,7 @@ import resume from './icons/resume.png'
 import selenium from './icons/selenium.png'
 import spring from './icons/spring.png'
 import sql from './icons/sql.png'
+import tailwind from './icons/tailwind.png'
 import tomcat from './icons/tomcat.png'
 import unittest from './icons/unittest.png'
 import video from './icons/video.png'
@@ -79,6 +80,7 @@ export {
     selenium,
     spring,
     sql,
+    tailwind,
     tomcat,
     unittest,
     video,
