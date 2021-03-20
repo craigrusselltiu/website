@@ -13,5 +13,5 @@ Website Link: https://craigrusselltiu.github.io/website
 - UX/UI (improvement)
 - HTML (improvement)
 - CSS animations
-- Using email REST API to send portfolio web form
+- Using email REST API to send portfolio web form directly to email
 - Among other things!
