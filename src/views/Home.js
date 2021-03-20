@@ -12,14 +12,12 @@ const Home = () => {
         {icon: images.java, text: 'Java'},
         {icon: images.c, text: 'C'},
         {icon: images.cpp, text: 'C++'},
-        {icon: images.csharp, text: 'C#'},
         {icon: images.html, text: 'HTML5'},
         {icon: images.css, text: 'CSS'},
         {icon: images.javascript, text: 'JavaScript'},
         {icon: images.sql, text: 'SQL'},
         {icon: images.lua, text: 'Lua'},
         {icon: images.r, text: 'R'},
-        {icon: images.assembly, text: 'Assembly'},
         {icon: images.matlab, text: 'MATLAB'},
     ]
 
@@ -28,7 +26,6 @@ const Home = () => {
         {icon: images.bootstrap, text: 'Bootstrap'},
         {icon: images.spring, text: 'Spring Boot'},
         {icon: images.junit, text: 'JUnit'},
-        {icon: images.selenium, text: 'Selenium'},
         {icon: images.unittest, text: 'Python Unittest'},
     ]
 
@@ -63,9 +60,6 @@ const Home = () => {
                     <IconList header="OTHER" list={other} />
                 </Fade>
             </div>
-            
-            <TextPhotoPair type='left' />
-            <TextCenter />
         </>
     )
 }

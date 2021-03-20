@@ -2,6 +2,10 @@ import TimelineDate from '../components/TimelineDate'
 import TimelineProject from '../components/TimelineProject'
 import * as images from '../images'
 
+/*  "Perhaps one of my first Java programs. It's a very simple command line application that emulates how a basic coffee shop exchange looks like.
+    It may not be groundbreaking or barely even be considered a 'project', but this marks my official decision to pursue software engineering as a career."
+ */
+
 const Projects = () => {
     return (
         <>
@@ -17,8 +21,8 @@ const Projects = () => {
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
                     ultimately sharpening my React and UX/UI design abilities.
                     My goal was to have one access point to showcase all my work, as well as refresh and improve my frontend development capabilities, hitting two birds with one stone.
-                    Aside from fading animations, all code and assets were designed and created by myself. (Resize the window and see how the website adapts!)"
-                technologies='ReactJS, React Router, HTML, CSS, GitHub Pages'
+                    Aside from fading animations and some icons, all code and assets were designed and created by myself. (Resize the window and see how the website adapts!)"
+                technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
             />
             <TimelineDate text='2021' />
             <TimelineProject
@@ -68,38 +72,22 @@ const Projects = () => {
                 subtitle='November 2019'
                 text="Pale Ale was a beer collection web app I worked on with a team for a client.
                     I was a frontend developer for this project, where I had to quickly learned React to use on the project.
-                    It has since been taken down from AWS EC2, so demo is currently unavailable."
+                    It has since been taken down from AWS, so demo is currently unavailable."
                 technologies='ReactJS, Bootstrap, CSS, MongoDB, AWS, Bitbucket'
             />
-            {/*
-                <TimelineDate text='2019' />
-                The aim of this project was to recreate a simple file system, not unlike how an OS manages files. It was written entirely from scratch in C using memory allocation.
-                Its implementation is simply a set of functions which can be found on GitHub, and so does not actually run as a program.
-            */}
             <TimelineDate text='2019' />
             <TimelineProject
                 img={images.p_yoshi}
                 icon={images.video}
                 button='VIDEO'
-                // link='https://www.youtube.com/watch?v=3bilCTwv8tc'
+                link='https://www.youtube.com/watch?v=6dfx9lR2tgI'
                 source='https://github.com/craigrusselltiu/yoshis-island'
-                title="YOSHI'S ISLAND RECREATION"
+                title="YOSHI'S ISLAND JUMP!"
                 subtitle='November 2018'
                 text="I worked on another personal game project where I wrote a basic recreation of the platforming aspect of the game Yoshi's Island using Qt Creator.
+                    I've made it into its own little game, quite similar to the infinite nature of games like Flappy Bird.
                     My goal for this project was to practically apply some concepts I learned in university, including object-oriented programming and design patterns with C++."
                 technologies='C++, Qt Creator'
-            />
-            <TimelineDate text='2018' />
-            <TimelineProject
-                img={images.p_coffee}
-                icon={images.noeye}
-                button='N/A'
-                source='https://github.com/craigrusselltiu/coffee-bot'
-                title='COFFEE BOT'
-                subtitle='MARCH 2017'
-                text="Perhaps one of my first Java programs. It's a very simple command line application that emulates how a basic coffee shop exchange looks like.
-                    It may not be groundbreaking or barely even be considered a 'project', but this marks my official decision to pursue software engineering as a career."
-                technologies='Java, Visual Studio Code'
             />
             <TimelineDate text='2011' />
             <TimelineProject

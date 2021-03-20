@@ -375,6 +375,32 @@ body {
   left: -20px;
 }
 
+.form {
+  background-color: rgb(50, 50, 50);
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 1.8;
+  margin-bottom: 25px;
+  padding-top: 5px;
+  padding-left: 15px;
+  padding-bottom: 5px;
+  width: 100%;
+}
+
+.form-btn {
+  background-color: rgb(100, 100, 100);
+  border-radius: 10px;
+  font-size: 20px;
+  line-height: 1.8;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.form-btn:hover {
+  filter: brightness(50%);
+  cursor: pointer;
+}
+
 /* Master media query */
 @media screen and (max-width: 1200px) {
   .navbar {

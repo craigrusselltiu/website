@@ -1,27 +1,41 @@
 import Fade from 'react-reveal/Fade'
-import IconList from '../components/IconList'
+import emailjs from "emailjs-com"
 import TextCenter from '../components/TextCenter'
-import * as images from '../images'
 
 const Contact = () => {
-    const contacts = [
-        {icon: images.github, text: 'github.com/craigrusselltiu'},
-        {icon: images.linkedin, text: 'linkedin.com/in/craig-tiu'},
-        {icon: images.gmail, text: 'craigrusselltiu@gmail.com'},
-    ]
+    function sendEmail(e) {
+        e.preventDefault();
+    
+        emailjs.sendForm('gmail', 'craigrusselltiu', e.target, 'user_xZVaYClL2uZByoDkgCRUY').then((result) => {
+            console.log(result.text);
+        }, (error) => {
+            console.log(error.text);
+        });
+        e.target.reset()
+    }
 
     return (
         <>
             <TextCenter
                 header='CONTACT'
-                text="If you would like to reach out and have a chat with me, just shoot me an email or click the email button on the bar towards the left side of the page.
-                    I look forward to speaking with you soon!"
+                text="If you would like to reach out, just shoot me an email by clicking the email button on the left-most bar of the page or use the email form below.
+                    I'll be more than happy to have a chat and answer any questions you may have!"
             />
-            <div className='content'>
-                <Fade up distance={'40px'} delay={200}>
-                    <IconList header="HOW TO REACH ME" list={contacts} />
-                </Fade>
-            </div>
+
+            <Fade up distance={'40px'} delay={200}>
+                <div className='content-wrapper' style={{marginTop: '-150px'}}>
+                    <div className='content'>
+                        <form className="contact-form" onSubmit={sendEmail}>
+                            <h1 className='txt'>EMAIL FORM</h1>
+                            <input className='form' type="text" placeholder="Subject" name="subject" /><br />
+                            <input className='form' type="text" placeholder="Name" name="name" /><br />
+                            <input className='form' type="email" placeholder="E-mail" name="email" /><br />
+                            <textarea className='form' type="text" placeholder="Message To Craig" name="subject" style={{height: '200px'}} /><br />
+                            <input className='form-btn' type="submit" value="Send" />
+                        </form>
+                    </div>
+                </div>
+            </Fade>
         </>
     )
 }
