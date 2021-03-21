@@ -57,7 +57,7 @@ const Projects = () => {
                     The tool helps radiologists extract features from the tumor of 3D lung cancer patient CT images and utilise machine learning in analysing them,
                     specifically ones who have undergone stereotactic radiotherapy, to predict metastasis.
                     Because the software interacts with sensitive information including patient medical records, public access is prohibited."
-                technologies='Python, PyTorch, SciPy, Tkinter'
+                technologies='Python, PyTorch, SciPy, Tkinter, Unittest'
             />
             <TimelineDate text='2020' />
             <TimelineProject
