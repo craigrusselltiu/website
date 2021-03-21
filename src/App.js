@@ -2,6 +2,7 @@ import { HashRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Background from './components/Background'
 import FadeBar from './components/FadeBar'
+import Footer from './components/Footer'
 import LinkBar from './components/LinkBar'
 import Logo from './components/Logo'
 import Navbar from './components/Navbar'
@@ -36,6 +37,7 @@ function App() {
           <Route path='/projects' component={Projects} />
           <Route path='/contact' component={Contact} />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

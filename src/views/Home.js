@@ -1,6 +1,5 @@
 import Fade from 'react-reveal/Fade'
 import IconList from '../components/IconList'
-import Footer from '../components/Footer'
 import Quote from '../components/Quote'
 import TextPhotoPair from '../components/TextPhotoPair'
 import pic1 from '../images/pic1.png'
@@ -14,9 +13,10 @@ const Home = () => {
         {icon: images.java, text: 'Java'},
         {icon: images.c, text: 'C'},
         {icon: images.cpp, text: 'C++'},
-        {icon: images.html, text: 'HTML5'},
         {icon: images.css, text: 'CSS'},
+        {icon: images.html, text: 'HTML5'},
         {icon: images.javascript, text: 'JavaScript'},
+        {icon: images.typescript, text: 'TypeScript'},
         {icon: images.sql, text: 'SQL'},
         {icon: images.lua, text: 'Lua'},
         {icon: images.r, text: 'R'},
@@ -24,8 +24,8 @@ const Home = () => {
     ]
 
     const frameworks = [
-        {icon: images.react, text: 'ReactJS'},
-        {icon: images.tailwind, text: 'Tailwind CSS'},
+        {icon: images.react, text: 'React'},
+        {icon: images.tailwind, text: 'Tailwind'},
         {icon: images.bootstrap, text: 'Bootstrap'},
         {icon: images.spring, text: 'Spring Boot'},
         {icon: images.junit, text: 'JUnit'},
@@ -75,7 +75,6 @@ const Home = () => {
             />
 
             <Quote text={'"Here\'s the thing about time; if you can\'t make the most out of any given moment, you don\'t deserve a single extra second." — Ekko, The Boy Who Shattered Time'} />
-            <Footer />
         </>
     )
 }

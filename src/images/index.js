@@ -33,6 +33,7 @@ import spring from './icons/spring.png'
 import sql from './icons/sql.png'
 import tailwind from './icons/tailwind.png'
 import tomcat from './icons/tomcat.png'
+import typescript from './icons/typescript.png'
 import unittest from './icons/unittest.png'
 import video from './icons/video.png'
 import vscode from './icons/vscode.png'
@@ -82,6 +83,7 @@ export {
     sql,
     tailwind,
     tomcat,
+    typescript,
     unittest,
     video,
     vscode,

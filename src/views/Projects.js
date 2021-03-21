@@ -1,11 +1,6 @@
-import Footer from '../components/Footer'
 import TimelineDate from '../components/TimelineDate'
 import TimelineProject from '../components/TimelineProject'
 import * as images from '../images'
-
-/*  "Perhaps one of my first Java programs. It's a very simple command line application that emulates how a basic coffee shop exchange looks like.
-    It may not be groundbreaking or barely even be considered a 'project', but this marks my official decision to pursue software engineering as a career."
- */
 
 const Projects = () => {
     return (
@@ -47,19 +42,19 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/quarantinder'
                 title='QUARANTINDER'
                 subtitle='November 2020'
-                text="Quarantinder was a virtual dating web app project I worked on with a team.
+                text="Quarantinder was a virtual dating web app I worked on with a team.
                     The goal of the web app is to maintain social connections between people during COVID.
-                    Details on my contributions as a full stack developer can be found in the README on the GitHub repository for the source code.
-                    The video was produced and edited entirely by me."
-                technologies='Spring Boot/Java, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
+                    Details on my contributions as a full stack developer can be found in the README on the GitHub repository.
+                    The demo video was produced and edited entirely by me."
+                technologies='Spring Boot, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
             />
             <TimelineProject
                 img={images.p_radiomics}
                 priv={true}
                 title='LUNG CANCER ANALYSIS TOOL'
                 subtitle='February 2020'
-                text="I designed and implemented a radiomics tool with a research partner at The Westmead Institute for Medical Research.
-                    The tool extracts features from the tumor of 3D lung cancer patient CT images and utilises machine learning in analysing them,
+                text="I designed and implemented a medical application with a research partner at The Westmead Institute for Medical Research.
+                    The tool helps radiologists extract features from the tumor of 3D lung cancer patient CT images and utilise machine learning in analysing them,
                     specifically ones who have undergone stereotactic radiotherapy, to predict metastasis.
                     Because the software interacts with sensitive information including patient medical records, public access is prohibited."
                 technologies='Python, PyTorch, SciPy, Tkinter'
@@ -67,14 +62,16 @@ const Projects = () => {
             <TimelineDate text='2020' />
             <TimelineProject
                 img={images.p_beer}
-                priv={true}
+                icon={images.noeye}
+                button='N/A'
+                source='https://github.com/craigrusselltiu/paleale'
                 title='PALE ALE'
                 subtitle='November 2019'
                 text="Pale Ale was a beer collection web app I worked on with a team for a client.
                     The app allowed users to log, store, track, and manage their personal beer collections in different containers.
                     I was a frontend developer for this project, where I had to quickly learned React to use on the project.
                     The AWS EC2 instance has since been taken down, so demo is currently unavailable."
-                technologies='ReactJS, Bootstrap, Tailwind CSS, CSS, MongoDB, AWS, Bitbucket'
+                technologies='ReactJS, TypeScript, Bootstrap, Tailwind CSS, CSS, HTML, Bitbucket'
             />
             <TimelineDate text='2019' />
             <TimelineProject
@@ -104,7 +101,6 @@ const Projects = () => {
                     (Note that to actually play it will require the installation of the Roblox engine.)"
                 technologies='Lua, Roblox Engine'
             />
-            <Footer />
         </>
     )
 }

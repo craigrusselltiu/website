@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import Fade from 'react-reveal/Fade'
 import emailjs from "emailjs-com"
-import Footer from '../components/Footer'
 import TextCenter from '../components/TextCenter'
 
 const Contact = () => {
@@ -23,7 +22,7 @@ const Contact = () => {
         <>
             <TextCenter
                 header='CALL ME MAYBE'
-                text="If you would like to reach out, just shoot me an email by clicking the email button on the left sidebar of the page or use the email form below.
+                text="If you would like to reach out, just shoot me an email by clicking the email button on the left sidebar of the page, or use the email form below.
                     I'll be more than happy to have a chat and answer any questions you may have!"
             />
 
@@ -42,7 +41,6 @@ const Contact = () => {
                     </div>
                 </div>
             </Fade>
-            <Footer />
         </>
     )
 }
