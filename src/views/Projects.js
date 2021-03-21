@@ -17,7 +17,7 @@ const Projects = () => {
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
                     ultimately sharpening my React and UX/UI design abilities.
                     My goal was to have one access point to showcase all my work, as well as refresh and improve my frontend development capabilities, hitting two birds with one stone.
-                    Aside from the fading animations and some icons, all code and assets were designed and created by myself. (Resize the window and see how the website adapts!)"
+                    (Resize the window and see the website adapt!)"
                 technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
             />
             <TimelineDate text='2021' />
@@ -54,8 +54,7 @@ const Projects = () => {
                 title='LUNG CANCER ANALYSIS TOOL'
                 subtitle='February 2020'
                 text="I designed and implemented a medical application with a research partner at The Westmead Institute for Medical Research.
-                    The tool helps radiologists extract features from the tumor of 3D lung cancer patient CT images and utilise machine learning in analysing them,
-                    specifically ones who have undergone stereotactic radiotherapy, to predict metastasis.
+                    The tool helps radiologists analyse tumors of lung cancer patients who have undergone stereotactic radiotherapy to predict possible recurrence.
                     Because the software interacts with sensitive information including patient medical records, public access is prohibited."
                 technologies='Python, PyTorch, SciPy, Tkinter, Unittest'
             />
@@ -67,9 +66,8 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/paleale'
                 title='PALE ALE'
                 subtitle='November 2019'
-                text="Pale Ale was a beer collection web app I worked on with a team for a client.
-                    The app allowed users to log, store, track, and manage their personal beer collections in different containers.
-                    I was a frontend developer for this project, where I had to quickly learn React to use on the project.
+                text="Pale Ale was a beer collection web app I worked on with a team for a client, which allowed users to log, store, track, and manage their personal beer collections.
+                    I quickly learned React for this as I was mainly a frontend developer for the project.
                     The AWS EC2 instance has since been taken down, so demo is currently unavailable."
                 technologies='ReactJS, TypeScript, Bootstrap, Tailwind CSS, CSS, HTML, Bitbucket'
             />
@@ -82,8 +80,8 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/yoshis-island'
                 title="YOSHI'S ISLAND JUMP!"
                 subtitle='November 2018'
-                text="I worked on another personal game project where I wrote a basic recreation of the platforming aspect of the game Yoshi's Island using Qt Creator.
-                    I've made it into its own little game, quite similar to the infinite nature of games like Flappy Bird.
+                text="This was another personal game project inspired by the game Yoshi's Island using Qt Creator.
+                    I've since made it into its own little game, similar to the infinite nature of games like Flappy Bird.
                     My goal for this project was to practically apply some concepts I learned in university, including object-oriented programming and design patterns with C++."
                 technologies='C++, Qt Creator'
             />
@@ -97,7 +95,7 @@ const Projects = () => {
                 title='PLANTS VS. ZOMBIES TYCOON'
                 subtitle='April 2010'
                 text="This game was the very first coding project I completed when I was just 12 years old, and has now been played by over 1.8 million players.
-                    This will always be a project that I am proud of, as it was one of the initial forces that nudged me towards the path of software engineering.
+                    I will always be proud of this project, as it was the main force that inspired me to pursue software engineering.
                     (Note that to actually play it will require the installation of the Roblox engine.)"
                 technologies='Lua, Roblox Engine'
             />
