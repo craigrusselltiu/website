@@ -73,8 +73,8 @@ const Projects = () => {
                 text="Pale Ale was a beer collection web app I worked on with a team for a client.
                     The app allowed users to log, store, track, and manage their personal beer collections in different containers.
                     I was a frontend developer for this project, where I had to quickly learned React to use on the project.
-                    It has since been taken down from AWS, so demo is currently unavailable."
-                technologies='ReactJS, Bootstrap, CSS, MongoDB, AWS, Bitbucket'
+                    The AWS EC2 instance has since been taken down, so demo is currently unavailable."
+                technologies='ReactJS, Bootstrap, Tailwind CSS, CSS, MongoDB, AWS, Bitbucket'
             />
             <TimelineDate text='2019' />
             <TimelineProject
