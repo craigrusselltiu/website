@@ -69,7 +69,7 @@ const Projects = () => {
                 subtitle='November 2019'
                 text="Pale Ale was a beer collection web app I worked on with a team for a client.
                     The app allowed users to log, store, track, and manage their personal beer collections in different containers.
-                    I was a frontend developer for this project, where I had to quickly learned React to use on the project.
+                    I was a frontend developer for this project, where I had to quickly learn React to use on the project.
                     The AWS EC2 instance has since been taken down, so demo is currently unavailable."
                 technologies='ReactJS, TypeScript, Bootstrap, Tailwind CSS, CSS, HTML, Bitbucket'
             />
