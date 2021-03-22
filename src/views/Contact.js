@@ -21,7 +21,7 @@ const Contact = () => {
     return (
         <>
             <TextCenter
-                header='CALL ME MAYBE'
+                header='EMAIL ME MAYBE'
                 text="If you would like to reach out, just shoot me an email by clicking the email button on the left sidebar of the page, or use the email form below.
                     I'll be more than happy to have a chat and answer any questions you may have!"
             />

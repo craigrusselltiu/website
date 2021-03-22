@@ -415,10 +415,6 @@ body {
   .navbar {
     margin-bottom: 40vh;
   }
-
-  .linkbar {
-    position: absolute;
-  }
   
   .content-wrapper {
     display: block;
@@ -489,6 +485,10 @@ body {
 
     .navbar {
       margin: 30vh 5vw 85vh;
+    }
+
+    .linkbar {
+      position: absolute;
     }
   }
 
