@@ -15,8 +15,7 @@ const Projects = () => {
                 title='PORTFOLIO WEBSITE'
                 subtitle='March 2021'
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
-                    ultimately sharpening my React and UX/UI design abilities.
-                    My goal was to have one access point to showcase all my work, as well as refresh and improve my frontend development capabilities, hitting two birds with one stone.
+                    ultimately sharpening my React and frontend UX/UI design abilities.
                     (Resize the window and see the website adapt!)"
                 technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
             />
