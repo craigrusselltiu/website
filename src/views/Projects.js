@@ -15,8 +15,7 @@ const Projects = () => {
                 title='PORTFOLIO WEBSITE'
                 subtitle='March 2021'
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
-                    ultimately sharpening my React and frontend UX/UI design abilities.
-                    (Resize the window and see the website adapt!)"
+                    ultimately sharpening my React and frontend UX/UI design abilities. (Resize the window and see the website adapt!)"
                 technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
             />
             <TimelineDate text='2021' />
@@ -28,8 +27,7 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/pca-deep-learning'
                 title='THESIS PROJECT'
                 subtitle='December 2020'
-                text="My thesis project was mainly a research-based one that focused on improving how we classify prostate cancer aggressiveness through machine learning.
-                    Although my model implementation did not outperform existing methods, it still is one of the first projects to utilise automatic augmentation for medical images,
+                text="My thesis project was mainly a research-based one that focused on improving how we classify prostate cancer aggressiveness through machine learning,
                     serving as a baseline for future research."
                 technologies='Python, Keras, TensorFlow'
             />
@@ -41,10 +39,7 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/quarantinder'
                 title='QUARANTINDER'
                 subtitle='November 2020'
-                text="Quarantinder was a virtual dating web app I worked on with a team.
-                    The goal of the web app is to maintain social connections between people during COVID.
-                    Details on my contributions as a full stack developer can be found in the README on the GitHub repository.
-                    The demo video was produced and edited entirely by me."
+                text="Quarantinder was a virtual dating web app I worked on with a team, with the goal of maintatining social connections between people during COVID."
                 technologies='Spring Boot, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
             />
             <TimelineProject
@@ -52,8 +47,8 @@ const Projects = () => {
                 priv={true}
                 title='LUNG CANCER ANALYSIS TOOL'
                 subtitle='February 2020'
-                text="I designed and implemented a medical application with a research partner at The Westmead Institute for Medical Research.
-                    The tool helps radiologists analyse tumors of lung cancer patients who have undergone stereotactic radiotherapy to predict possible recurrence.
+                text="I designed and implemented a medical application at The Westmead Institute for Medical Research,
+                    to help radiologists analyse tumors of lung cancer patients who have undergone stereotactic radiotherapy to predict possible recurrence.
                     Because the software interacts with sensitive information including patient medical records, public access is prohibited."
                 technologies='Python, PyTorch, SciPy, Tkinter, Unittest'
             />
@@ -65,8 +60,7 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/paleale'
                 title='PALE ALE'
                 subtitle='November 2019'
-                text="Pale Ale was a beer collection web app I worked on with a team for a client, which allowed users to log, store, track, and manage their personal beer collections.
-                    I quickly learned React for this as I was mainly a frontend developer for the project.
+                text="Pale Ale was a beer collection web app I worked on for a client where I quickly learned React, which allowed users to log, store, track, and manage their personal beer collections.
                     The AWS EC2 instance has since been taken down, so demo is currently unavailable."
                 technologies='ReactJS, TypeScript, Bootstrap, Tailwind CSS, CSS, HTML, Bitbucket'
             />
@@ -79,8 +73,7 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/yoshis-island'
                 title="YOSHI'S ISLAND JUMP!"
                 subtitle='November 2018'
-                text="This was another personal game project inspired by the game Yoshi's Island using Qt Creator.
-                    I've since made it into its own little game, similar to the infinite nature of games like Flappy Bird.
+                text="This was another personal game project inspired by the game Yoshi's Island using Qt Creator, and is similar to games like Flappy Bird.
                     My goal for this project was to practically apply some concepts I learned in university, including object-oriented programming and design patterns with C++."
                 technologies='C++, Qt Creator'
             />
@@ -94,8 +87,7 @@ const Projects = () => {
                 title='PLANTS VS. ZOMBIES TYCOON'
                 subtitle='April 2010'
                 text="This game was the very first coding project I completed when I was just 12 years old, and has now been played by over 1.8 million players.
-                    I will always be proud of this project, as it was the main force that inspired me to pursue software engineering.
-                    (Note that to actually play it will require the installation of the Roblox engine.)"
+                    I will always be proud of this project, as it was the main force that inspired me to pursue software engineering."
                 technologies='Lua, Roblox Engine'
             />
         </>
