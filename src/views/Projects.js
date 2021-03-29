@@ -40,7 +40,7 @@ const Projects = () => {
                 title='QUARANTINDER'
                 subtitle='November 2020'
                 text="Quarantinder was a virtual dating web app I worked on with a team, with the goal of maintatining social connections between people during COVID."
-                technologies='Spring Boot, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
+                technologies='Spring Boot, JSP, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
             />
             <TimelineProject
                 img={images.p_radiomics}
