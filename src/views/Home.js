@@ -16,10 +16,8 @@ const Home = () => {
         {icon: images.css, text: 'CSS'},
         {icon: images.html, text: 'HTML5'},
         {icon: images.javascript, text: 'JavaScript'},
-        {icon: images.typescript, text: 'TypeScript'},
         {icon: images.sql, text: 'SQL'},
         {icon: images.lua, text: 'Lua'},
-        {icon: images.r, text: 'R'},
         {icon: images.matlab, text: 'MATLAB'},
     ]
 
