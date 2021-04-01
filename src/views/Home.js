@@ -27,7 +27,6 @@ const Home = () => {
         {icon: images.bootstrap, text: 'Bootstrap'},
         {icon: images.spring, text: 'Spring Boot'},
         {icon: images.junit, text: 'JUnit'},
-        {icon: images.unittest, text: 'Python Unittest'},
     ]
 
     const other = [
