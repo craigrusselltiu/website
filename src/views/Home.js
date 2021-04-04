@@ -32,7 +32,6 @@ const Home = () => {
     const other = [
         {icon: images.mysql, text: 'MySQL'},
         {icon: images.mongodb, text: 'MongoDB'},
-        {icon: images.neo4j, text: 'Neo4j'},
         {icon: images.aws, text: 'AWS'},
         {icon: images.tomcat, text: 'Tomcat'},
         {icon: images.maven, text: 'Maven'},
