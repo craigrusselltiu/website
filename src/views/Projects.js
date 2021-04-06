@@ -20,18 +20,6 @@ const Projects = () => {
             />
             <TimelineDate text='2021' />
             <TimelineProject
-                img={images.p_thesis}
-                icon={images.eye}
-                button='READ'
-                link='https://drive.google.com/file/d/1MI6_kl-o5M0dGshCegiPqw7YcHJW4h21/view?usp=sharing'
-                source='https://github.com/craigrusselltiu/pca-deep-learning'
-                title='THESIS PROJECT'
-                subtitle='December 2020'
-                text="My thesis project was mainly a research-based one that focused on improving how we classify prostate cancer aggressiveness through machine learning,
-                    serving as a baseline for future research."
-                technologies='Python, Keras, TensorFlow'
-            />
-            <TimelineProject
                 img={images.p_quarantinder}
                 icon={images.video}
                 button='VIDEO'
