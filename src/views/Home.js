@@ -71,7 +71,7 @@ const Home = () => {
                 sig={'Kyoto, 2018'}
             />
 
-            <Quote text={'"Here\'s the thing about time; if you can\'t make the most out of any given moment, you don\'t deserve a single extra second." — Ekko, The Boy Who Shattered Time'} />
+            <Quote text={'"Here\'s the thing about time; if you can\'t make the most out of any given moment, you don\'t deserve a single extra second."'} />
         </>
     )
 }

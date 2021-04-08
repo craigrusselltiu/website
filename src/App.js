@@ -12,7 +12,7 @@ import ScrollButton from './components/ScrollButton'
 import Home from './views/Home'
 import Projects from './views/Projects'
 import Contact from './views/Contact'
-import bg from './images/background2.png'
+import bg from './images/background.png'
 import 'animate.css'
 
 function App() {

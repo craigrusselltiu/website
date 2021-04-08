@@ -7,9 +7,8 @@ const Quote = ({ text }) => {
                 <p className='txt' style={{
                     fontStyle: 'italic',
                     fontFamily: 'Lucida',
-                    fontSize: '28px',
+                    fontSize: '20px',
                     margin: '150px auto',
-                    textIndent: '60px',
                 }}>{text}</p>
             </div>
         </Fade>
