@@ -15,7 +15,7 @@ const Projects = () => {
                 title='PORTFOLIO WEBSITE'
                 subtitle='March 2021'
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
-                    ultimately sharpening my React and frontend UX/UI design abilities. (Resize the window and see the website adapt!)"
+                    ultimately sharpening my React and frontend UX/UI design abilities."
                 technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
             />
             <TimelineDate text='2021' />
@@ -35,8 +35,7 @@ const Projects = () => {
                 priv={true}
                 title='LUNG CANCER ANALYSIS TOOL'
                 subtitle='February 2020'
-                text="I designed and implemented a medical application at The Westmead Institute for Medical Research,
-                    to help radiologists analyse tumors of lung cancer patients who have undergone stereotactic radiotherapy to predict possible recurrence.
+                text="I designed and implemented a medical application at The Westmead Institute for Medical Research, to help radiologists analyse lung cancer CT scans to predict metastasis.
                     Because the software interacts with sensitive information including patient medical records, public access is prohibited."
                 technologies='Python, PyTorch, SciPy, Tkinter, Unittest'
             />
