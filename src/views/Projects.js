@@ -27,7 +27,7 @@ const Projects = () => {
                 source='https://github.com/craigrusselltiu/quarantinder'
                 title='QUARANTINDER'
                 subtitle='November 2020'
-                text="Quarantinder was a virtual dating web app I worked on with a team, with the goal of maintatining social connections between people during COVID."
+                text="Quarantinder was a virtual dating web app I worked on with the goal of maintatining social connections between people during COVID."
                 technologies='Spring Boot, JSP, JUnit, MySQL, Hibernate, Maven, Tomcat, Git'
             />
             <TimelineProject
