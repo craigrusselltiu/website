@@ -7,7 +7,7 @@ const Quote = ({ text }) => {
                 <p className='txt' style={{
                     fontStyle: 'italic',
                     fontFamily: 'Lucida',
-                    fontSize: '20px',
+                    fontSize: '22px',
                     margin: '150px auto',
                 }}>{text}</p>
             </div>

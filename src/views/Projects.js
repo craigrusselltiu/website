@@ -16,7 +16,7 @@ const Projects = () => {
                 subtitle='March 2021'
                 text="I created this portfolio website as a personal project to explore single-page applications, dynamic rendering, and responsive design,
                     ultimately sharpening my React and frontend UX/UI design abilities."
-                technologies='ReactJS, React Router, HTML, CSS, GitHub Pages, Paint.NET'
+                technologies='ReactJS, React Router, HTML5, CSS, GitHub Pages'
             />
             <TimelineDate text='2021' />
             <TimelineProject
@@ -49,7 +49,7 @@ const Projects = () => {
                 subtitle='November 2019'
                 text="Pale Ale was a beer collection web app I worked on for a client where I quickly learned React, which allowed users to log, store, track, and manage their personal beer collections.
                     The AWS EC2 instance has since been taken down, so demo is currently unavailable."
-                technologies='ReactJS, TypeScript, Bootstrap, Tailwind CSS, CSS, HTML, Bitbucket'
+                technologies='ReactJS, TypeScript, Bootstrap, Tailwind, HTML5, CSS, Bitbucket'
             />
             <TimelineDate text='2019' />
             <TimelineProject
