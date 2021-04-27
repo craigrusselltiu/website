@@ -64,9 +64,9 @@ const Home = () => {
             <TextPhotoPair
                 type='left'
                 header="WHEN I'M NOT HACKING INTO THE MAINFRAME"
-                text="In my spare time I like to travel and explore new things (admittedly mostly for food) and play the piano to wind down and destress.
-                    I've also recently been keeping up with whatever Elon Musk is up to, as I'm sure that he's got some sort of an evil master plan.
-                    Working on cool side projects like this portfolio is something that I enjoy doing as well, keeping me sharp and on my toes at all times."
+                text="In my spare time I like to travel and explore new things (admittedly mostly for food), keep up with whatever Elon Musk is up to, and play the piano to wind down and destress.
+                    I've also recently been exploring custom mechanical keyboards, and am putting together one of my own.
+                    Working on meaningful side projects like this portfolio is something that I enjoy doing as well, keeping me sharp and on my toes at all times."
                 img={pic2}
                 sig={'Kyoto, 2018'}
             />
